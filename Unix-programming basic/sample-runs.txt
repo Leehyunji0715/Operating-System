@@ -1,0 +1,26 @@
+$ a.out
+
+Usage: a.out {-s | -p} <file_name> [file_name ...]
+
+$ a.out -s red.c blue.c green.c
+
+(28589) Reading from red.c and writing to nc-red.c ...
+
+(28589) Reading from blue.c and writing to nc-blue.c ...
+
+(28589) Reading from green.c and writing to nc-green.c ...
+
+Finished removing comments from 3 files
+
+$ a.out -p red.c blue.c green.c
+
+(28596) Reading from red.c and writing to nc-red.c ...
+
+(28597) Reading from blue.c and writing to nc-blue.c ...
+
+(28598) Reading from green.c and writing to nc-green.c ...
+
+Finished removing comments from 3 files
+
+
+
