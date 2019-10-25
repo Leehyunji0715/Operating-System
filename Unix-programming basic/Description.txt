@@ -1,3 +1,4 @@
 What I wrote is 'LEE.c' file
 This is utilizing read(), write(), open(), close() of Unix programming.
-This gets the source code file, and read the file 'buffer by buffer' which size is 100. And the program tries to remove the line comments of source code file.
+This gets the source code file, and read the file 'buffer by buffer' which size is 100. 
+  And the program tries to remove the line comments of source code file.
