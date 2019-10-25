@@ -1,0 +1,80 @@
+C:\> a.exe 8 5 -random 17
+
+** Analysis Options **
+
+   Total number of processes to analyze      : 8
+   Quantum time used in round robin analysis : 5 msec
+   Randomly generate process running times   : Yes
+   Maximum total running time of a process   : 17 msec
+
+Generating running times for 8 processes . . .
+
+This analysis report was generated on Mon Mar 19 18:07:39 2012
+
+** START OF ANALYSIS REPORT **
+
+
+** First Come, First Served (FCFS) Scheduling **
+
+   Process#   Start Time   Stop Time   Running Time
+   --------   ----------   ---------   ------------
+          0            0           5              5
+          1            5          22             17
+          2           22          30              8
+          3           30          45             15
+          4           45          49              4
+          5           49          54              5
+          6           54          69             15
+          7           69          82             13
+
+       Average waiting time:   34.25 msec
+   Average turn-around time:   44.50 msec
+
+
+** Shortest Job First (SJF) Scheduling **
+
+   Process#   Start Time   Stop Time   Running Time
+   --------   ----------   ---------   ------------
+          4            0           4              4
+          0            4           9              5
+          5            9          14              5
+          2           14          22              8
+          7           22          35             13
+          3           35          50             15
+          6           50          65             15
+          1           65          82             17
+
+       Average waiting time:   24.88 msec
+   Average turn-around time:   35.12 msec
+
+
+** Round Robin (RR) Scheduling **
+
+   Process#   Start Time   Stop Time   Running Time
+   --------   ----------   ---------   ------------
+          0            0           5              5
+          1            5          10              5
+          2           10          15              5
+          3           15          20              5
+          4           20          24              4
+          5           24          29              5
+          6           29          34              5
+          7           34          39              5
+          1           39          44              5
+          2           44          47              3
+          3           47          52              5
+          6           52          57              5
+          7           57          62              5
+          1           62          67              5
+          3           67          72              5
+          6           72          77              5
+          7           77          80              3
+          1           80          82              2
+
+               Time quantum:       5 msec
+       Average waiting time:   41.75 msec
+   Average turn-around time:   52.00 msec
+
+** END OF ANALYSIS REPORT **
+
+
