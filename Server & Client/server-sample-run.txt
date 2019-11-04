@@ -1,0 +1,35 @@
+C:\Temp>server
+
+SERVER: The server is running
+
+SERVER: An existing server FIFO has been detected
+
+SERVER: ========================================
+
+SERVER: Open the server FIFO in read mode
+
+SERVER: Wait for a request from a client
+
+SERVER: Received time request from client# 1668
+
+SERVER: Open the client FIFO named client-1668.fifo in write mode
+
+SERVER: Send response to the client
+
+SERVER: Close client FIFO
+
+SERVER: Close server FIFO
+
+SERVER: ========================================
+
+SERVER: Open the server FIFO in read mode
+
+SERVER: Wait for a request from a client
+
+SERVER: Received shutdown request from a client
+
+SERVER: Close server FIFO
+
+SERVER: The server has terminated
+
+C:\Temp>

@@ -1,0 +1,51 @@
+C:\Temp>client asdf
+
+Usage: a.exe [-s]
+
+
+   -s    shut down the server
+
+
+C:\Temp>client
+
+CLIENT: PID# 1668 is running
+
+CLIENT: The client FIFO named client-1668.fifo has been created
+
+CLIENT: Open the server FIFO in write mode
+
+CLIENT: Send time request to the server
+
+CLIENT: Open the client FIFO in read mode
+
+CLIENT: Wait for a response from the server
+
+CLIENT: Received response from server: Sat Apr 23 12:12:22 2011
+
+CLIENT: Close client FIFO
+
+CLIENT: Unlink client FIFO
+
+CLIENT: Close server FIFO
+
+CLIENT: PID# 1668 has terminated
+
+
+C:\Temp>client -s
+
+CLIENT: PID# 4560 is running
+
+CLIENT: The client FIFO named client-4560.fifo has been created
+
+CLIENT: Open the server FIFO in write mode
+
+CLIENT: Send shutdown request to the server
+
+CLIENT: Unlink client FIFO
+
+CLIENT: Close server FIFO
+
+CLIENT: PID# 4560 has terminated
+
+
+C:\Temp>
